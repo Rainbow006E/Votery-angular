@@ -20,7 +20,7 @@
         right: 0;
         bottom: 0;
         img {
-            max-width: none;
+            // max-width: none;
             width: 800px;
         }
     }
@@ -121,6 +121,26 @@
 }
 
 @media screen and (max-width: 575px) {
+    .page-header {
+        .container {
+            min-height: 100vh;
+        }
+        .brand {
+            height: 30px;
+        }
+        .phoneSection {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            width: fit-content;
+            height: fit-content;
+            img {
+                width: 72vw;
+                opacity: .8;
+            }
+        }
+    }
     .cardGroup {
         margin: 12px 0 56px !important;
         .card {
@@ -135,14 +155,6 @@
                 bottom: 0;
                 opacity: .5;
             }
-        }
-    }
-}
-
-@media screen and (max-width: 575px) {
-    .page-header {
-        .brand {
-            height: 30px;
         }
     }
 }

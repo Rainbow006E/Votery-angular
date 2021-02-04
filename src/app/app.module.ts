@@ -10,6 +10,7 @@ import { NavbarComponent } from './shared/components/navbar/navbar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { MainLayoutComponent } from './layout/main-layout/main-layout.component';
+import { PrivacyComponent } from './shared/components/privacy/privacy.component';
 
 @NgModule({
     declarations: [
@@ -17,7 +18,8 @@ import { MainLayoutComponent } from './layout/main-layout/main-layout.component'
         NavbarComponent,
         HomeComponent,
         FooterComponent,
-        MainLayoutComponent
+        MainLayoutComponent,
+        PrivacyComponent
     ],
     imports: [
         BrowserAnimationsModule,
