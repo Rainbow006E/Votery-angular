@@ -149,7 +149,7 @@
         display: block;
         top: 0;
         height: 100% !important;
-        width: 300px;
+        width: 80%;
         right: 0;
         z-index: 1032;
         visibility: visible;
@@ -160,7 +160,7 @@
 
         max-height: none !important;
 
-        @include transform-translate-x(300px);
+        @include transform-translate-x(100%);
         @include transition (0.50s, cubic-bezier(0.685, 0.0473, 0.346, 1));
 
         &:before{
@@ -169,6 +169,7 @@
             background: -o-linear-gradient($brand-primary 0%, #000 80%); /* For Opera 11.1 to 12.0 */
             background: -moz-linear-gradient($brand-primary 0%, #000 80%); /* For Firefox 3.6 to 15 */
             background: linear-gradient($brand-primary 0%, #000 80%); /* Standard syntax (must be last) */
+            background: #359cb7;
             @include opacity(.76);
 
             display: block;
@@ -201,7 +202,7 @@
 
 
     [class*="navbar-expand-"] .navbar-collapse{
-        width: 300px;
+        width: 80%;
     }
 
     .wrapper{
@@ -215,7 +216,7 @@
         opacity: 1;
         top: 0;
         left: auto;
-        right: 300px;
+        right: 80%;
         content: "";
         z-index: 9999;
         overflow-x: hidden;

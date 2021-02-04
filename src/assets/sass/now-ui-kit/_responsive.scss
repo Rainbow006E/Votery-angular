@@ -6,7 +6,7 @@
             .navbar-collapse{
                 right: auto;
                 left: 0;
-                @include transform-translate-x(-300px);
+                @include transform-translate-x(-90%);
             }
         }
 
@@ -20,7 +20,7 @@
             }
 
             .navbar-translate{
-                @include transform-translate-x(-300px);
+                @include transform-translate-x(-90%);
             }
 
             &.menu-on-left{
@@ -29,7 +29,7 @@
                 }
 
                 .navbar-translate{
-                    @include transform-translate-x(300px);
+                    @include transform-translate-x(90%);
                 }
 
                 .wrapper{
@@ -38,7 +38,7 @@
 
                 #bodyClick{
                     right: auto;
-                    left: 300px;
+                    left: 90%;
                 }
             }
         }
@@ -139,7 +139,7 @@
         &.menu-on-left .navbar-collapse{
             right: auto;
             left: 0;
-            @include transform-translate-x(-300px);
+            @include transform-translate-x(-90%);
         }
 
         [class*="navbar-expand-"]{
@@ -159,11 +159,11 @@
 
         .nav-open &{
             &.menu-on-left .navbar .navbar-translate{
-                @include transform-translate-x(300px);
+                @include transform-translate-x(90%);
             }
 
             .navbar .navbar-translate{
-                @include transform-translate-x(-300px);
+                @include transform-translate-x(-90%);
             }
 
             &.menu-on-left .navbar-collapse{
@@ -172,7 +172,7 @@
 
             &.menu-on-left #bodyClick{
                 right: auto;
-                left: 300px;
+                left: 90%;
             }
         }
 
@@ -292,7 +292,7 @@
     }
 }
 
-@media screen and (min-width: 991px) and (max-width: 1200px){
+@media screen and (min-width: 991px) and (max-width: 190%){
     .section-images{
         .hero-images-container-1{
             right: 9%;
@@ -308,8 +308,8 @@
 
 @media screen and (max-width: 768px){
     .section-images{
-        height: 300px;
-        max-height: 300px;
+        height: 90%;
+        max-height: 90%;
 
         .hero-images-container{
             max-width: 380px;
@@ -335,7 +335,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 190%) {
     .section-images{
         .hero-images-container-1{
             top: 51%;
@@ -362,7 +362,7 @@ and ( orientation : portrait){
     }
 
     .section-images .hero-images-container{
-        max-width: 300px;
+        max-width: 90%;
     }
 
     .section-images .hero-images-container-1{

@@ -1,23 +1,33 @@
 <div class="wrapper">
-  <div class="page-header clear-filter" filter-color="orange">
-    <div class="page-header-image rellax-header" data-rellax-speed="-7" style="background-image: url('assets/img/header.jpg');">
+    <div class="page-header clear-filter" filter-color="gradient">
+        <div class="page-header-image rellax-header" data-rellax-speed="-7" style="background-image: url('assets/img/header/logo.png');"> </div>
+        
+        <div class="container">
+            <div class="d-flex justify-content-center justify-content-sm-start brand pt-5">
+                <img class="n-logo mt-3" src="assets/img/header/logo.png" alt="">
+            </div>
+            <div class="row" style="margin-top: 48px;">
+                <div class="col-12 col-sm-6 px-5">
+                    <h2 class="font-weight-bold text-left">
+                        Your personal power with online Votery platform
+                    </h2>
 
+                    <h4 class="text-left">
+                        How is that possible? Jo Votery ir pirmā 
+                        pasaulē platforma balsošanai, ar kuras palīdzību
+                        Tu legālā un aizraujošā veidā vari iegūt līdzekļus.
+                    </h4>
+
+                    <div class="headerBtn text-left">
+                        <a [routerLink]="['/']" class="btn btn-primary btn-round btn-lg"> Learn More </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="phoneSection">
+            <img src="assets/img/header/phone.png">
+        </div>
     </div>
-      <div class="container">
-          <div class="content-center brand">
-              <img class="n-logo" src="assets/img/now-logo.png" alt="">
-              <h1 class="h1-seo">Now UI Kit.</h1>
-              <h3>A beautiful Bootstrap 4 UI kit. Yours free.</h3>
-          </div>
-          <h6 class="category category-absolute">Designed by
-              <a href="https://invisionapp.com/" target="_blank">
-                  <img src="assets/img/invision-white-slim.png" class="invision-logo" />
-              </a>. Coded by
-              <a href="https://www.creative-tim.com" target="_blank">
-                  <img src="assets/img/creative-tim-white-slim2.png" class="creative-tim-logo" />
-              </a>.</h6>
-      </div>
-  </div>
 
   <div class="main">
     <div class="section section-images">
@@ -37,6 +47,7 @@
             </div>
         </div>
     </div>
+
       <app-basicelements></app-basicelements>
       <app-navigation></app-navigation>
       <div class="section section-tabs">

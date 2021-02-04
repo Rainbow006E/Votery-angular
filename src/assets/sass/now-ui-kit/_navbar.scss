@@ -83,8 +83,9 @@
         .nav-item .nav-link:not(.btn):focus,
         .nav-item .nav-link:not(.btn):hover,
         .nav-item .nav-link:not(.btn):active{
-            background-color: $opacity-2;
+            // background-color: $opacity-2;
             border-radius: $border-radius-small;
+            // border-top: 4px solid #7df8f8;
         }
     }
 
@@ -169,8 +170,8 @@
 }
 
 .bg-primary{
-    background-color: $primary-color !important;
-    // background-color: #359cb7 !important;
+    // background-color: $primary-color !important;
+    background-color: #359cb7 !important;
 }
 
 .bg-info{
