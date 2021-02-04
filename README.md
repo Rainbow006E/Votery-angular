@@ -126,8 +126,6 @@ Now Ui Kit Angular
 │   │           ├── navbar.component.spec.ts
 │   │           └── navbar.component.ts
 │   ├── assets
-│   │   ├── css
-│   │   │   └── demo.css
 │   │   ├── fonts
 │   │   ├── img
 │   │   └── sass

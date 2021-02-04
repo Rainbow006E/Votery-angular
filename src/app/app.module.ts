@@ -4,29 +4,27 @@ import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing';
-import { ComponentsModule } from './components/components.module';
-import { ExamplesModule } from './examples/examples.module';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './shared/navbar/navbar.component';
+import { NavbarComponent } from './shared/components/navbar/navbar.component';
 import { HomeComponent } from './pages/home/home.component';
-import { FooterComponent } from './shared/footer/footer.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
+import { MainLayoutComponent } from './layout/main-layout/main-layout.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         NavbarComponent,
         HomeComponent,
-        FooterComponent
+        FooterComponent,
+        MainLayoutComponent
     ],
     imports: [
         BrowserAnimationsModule,
         NgbModule,
         FormsModule,
         RouterModule,
-        AppRoutingModule,
-        ComponentsModule,
-        ExamplesModule
+        AppRoutingModule
     ],
     providers: [],
     bootstrap: [AppComponent]
